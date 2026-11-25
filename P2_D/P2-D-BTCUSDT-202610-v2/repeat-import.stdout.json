@@ -1,0 +1,288 @@
+{
+  "symbol": "BTCUSDT",
+  "start_date": "2026-10-01",
+  "end_date": "2026-10-31",
+  "days": 31,
+  "rows": 32537979,
+  "results": [
+    {
+      "day": "2026-10-01",
+      "source": "binance_vision_monthly_archive",
+      "row_count": 1235396,
+      "first_agg_trade_id": 3471091150,
+      "last_agg_trade_id": 3472326545,
+      "parquet_path": "C:\\Users\\1\\Desktop\\Onetime\\P2-D-BTCUSDT-202610-v2\\isolated-data\\canonical\\aggtrades\\symbol=BTCUSDT\\date=2026-10-01\\part-00000.parquet",
+      "skipped_existing": true
+    },
+    {
+      "day": "2026-10-02",
+      "source": "binance_vision_monthly_archive",
+      "row_count": 1746319,
+      "first_agg_trade_id": 3472326546,
+      "last_agg_trade_id": 3474072864,
+      "parquet_path": "C:\\Users\\1\\Desktop\\Onetime\\P2-D-BTCUSDT-202610-v2\\isolated-data\\canonical\\aggtrades\\symbol=BTCUSDT\\date=2026-10-02\\part-00000.parquet",
+      "skipped_existing": true
+    },
+    {
+      "day": "2026-10-03",
+      "source": "binance_vision_monthly_archive",
+      "row_count": 320901,
+      "first_agg_trade_id": 3474072865,
+      "last_agg_trade_id": 3474393765,
+      "parquet_path": "C:\\Users\\1\\Desktop\\Onetime\\P2-D-BTCUSDT-202610-v2\\isolated-data\\canonical\\aggtrades\\symbol=BTCUSDT\\date=2026-10-03\\part-00000.parquet",
+      "skipped_existing": true
+    },
+    {
+      "day": "2026-10-04",
+      "source": "binance_vision_monthly_archive",
+      "row_count": 521745,
+      "first_agg_trade_id": 3474393766,
+      "last_agg_trade_id": 3474915510,
+      "parquet_path": "C:\\Users\\1\\Desktop\\Onetime\\P2-D-BTCUSDT-202610-v2\\isolated-data\\canonical\\aggtrades\\symbol=BTCUSDT\\date=2026-10-04\\part-00000.parquet",
+      "skipped_existing": true
+    },
+    {
+      "day": "2026-10-05",
+      "source": "binance_vision_monthly_archive",
+      "row_count": 1195418,
+      "first_agg_trade_id": 3474915511,
+      "last_agg_trade_id": 3476110928,
+      "parquet_path": "C:\\Users\\1\\Desktop\\Onetime\\P2-D-BTCUSDT-202610-v2\\isolated-data\\canonical\\aggtrades\\symbol=BTCUSDT\\date=2026-10-05\\part-00000.parquet",
+      "skipped_existing": true
+    },
+    {
+      "day": "2026-10-06",
+      "source": "binance_vision_monthly_archive",
+      "row_count": 900371,
+      "first_agg_trade_id": 3476110929,
+      "last_agg_trade_id": 3477011299,
+      "parquet_path": "C:\\Users\\1\\Desktop\\Onetime\\P2-D-BTCUSDT-202610-v2\\isolated-data\\canonical\\aggtrades\\symbol=BTCUSDT\\date=2026-10-06\\part-00000.parquet",
+      "skipped_existing": true
+    },
+    {
+      "day": "2026-10-07",
+      "source": "binance_vision_monthly_archive",
+      "row_count": 1213267,
+      "first_agg_trade_id": 3477011300,
+      "last_agg_trade_id": 3478224566,
+      "parquet_path": "C:\\Users\\1\\Desktop\\Onetime\\P2-D-BTCUSDT-202610-v2\\isolated-data\\canonical\\aggtrades\\symbol=BTCUSDT\\date=2026-10-07\\part-00000.parquet",
+      "skipped_existing": true
+    },
+    {
+      "day": "2026-10-08",
+      "source": "binance_vision_monthly_archive",
+      "row_count": 1786563,
+      "first_agg_trade_id": 3478224567,
+      "last_agg_trade_id": 3480011129,
+      "parquet_path": "C:\\Users\\1\\Desktop\\Onetime\\P2-D-BTCUSDT-202610-v2\\isolated-data\\canonical\\aggtrades\\symbol=BTCUSDT\\date=2026-10-08\\part-00000.parquet",
+      "skipped_existing": true
+    },
+    {
+      "day": "2026-10-09",
+      "source": "binance_vision_monthly_archive",
+      "row_count": 894781,
+      "first_agg_trade_id": 3480011130,
+      "last_agg_trade_id": 3480905910,
+      "parquet_path": "C:\\Users\\1\\Desktop\\Onetime\\P2-D-BTCUSDT-202610-v2\\isolated-data\\canonical\\aggtrades\\symbol=BTCUSDT\\date=2026-10-09\\part-00000.parquet",
+      "skipped_existing": true
+    },
+    {
+      "day": "2026-10-10",
+      "source": "binance_vision_monthly_archive",
+      "row_count": 307839,
+      "first_agg_trade_id": 3480905911,
+      "last_agg_trade_id": 3481213749,
+      "parquet_path": "C:\\Users\\1\\Desktop\\Onetime\\P2-D-BTCUSDT-202610-v2\\isolated-data\\canonical\\aggtrades\\symbol=BTCUSDT\\date=2026-10-10\\part-00000.parquet",
+      "skipped_existing": true
+    },
+    {
+      "day": "2026-10-11",
+      "source": "binance_vision_monthly_archive",
+      "row_count": 452084,
+      "first_agg_trade_id": 3481213750,
+      "last_agg_trade_id": 3481665833,
+      "parquet_path": "C:\\Users\\1\\Desktop\\Onetime\\P2-D-BTCUSDT-202610-v2\\isolated-data\\canonical\\aggtrades\\symbol=BTCUSDT\\date=2026-10-11\\part-00000.parquet",
+      "skipped_existing": true
+    },
+    {
+      "day": "2026-10-12",
+      "source": "binance_vision_monthly_archive",
+      "row_count": 1024970,
+      "first_agg_trade_id": 3481665834,
+      "last_agg_trade_id": 3482690803,
+      "parquet_path": "C:\\Users\\1\\Desktop\\Onetime\\P2-D-BTCUSDT-202610-v2\\isolated-data\\canonical\\aggtrades\\symbol=BTCUSDT\\date=2026-10-12\\part-00000.parquet",
+      "skipped_existing": true
+    },
+    {
+      "day": "2026-10-13",
+      "source": "binance_vision_monthly_archive",
+      "row_count": 1260214,
+      "first_agg_trade_id": 3482690804,
+      "last_agg_trade_id": 3483951017,
+      "parquet_path": "C:\\Users\\1\\Desktop\\Onetime\\P2-D-BTCUSDT-202610-v2\\isolated-data\\canonical\\aggtrades\\symbol=BTCUSDT\\date=2026-10-13\\part-00000.parquet",
+      "skipped_existing": true
+    },
+    {
+      "day": "2026-10-14",
+      "source": "binance_vision_monthly_archive",
+      "row_count": 1280357,
+      "first_agg_trade_id": 3483951018,
+      "last_agg_trade_id": 3485231374,
+      "parquet_path": "C:\\Users\\1\\Desktop\\Onetime\\P2-D-BTCUSDT-202610-v2\\isolated-data\\canonical\\aggtrades\\symbol=BTCUSDT\\date=2026-10-14\\part-00000.parquet",
+      "skipped_existing": true
+    },
+    {
+      "day": "2026-10-15",
+      "source": "binance_vision_monthly_archive",
+      "row_count": 1823901,
+      "first_agg_trade_id": 3485231375,
+      "last_agg_trade_id": 3487055275,
+      "parquet_path": "C:\\Users\\1\\Desktop\\Onetime\\P2-D-BTCUSDT-202610-v2\\isolated-data\\canonical\\aggtrades\\symbol=BTCUSDT\\date=2026-10-15\\part-00000.parquet",
+      "skipped_existing": true
+    },
+    {
+      "day": "2026-10-16",
+      "source": "binance_vision_monthly_archive",
+      "row_count": 1189647,
+      "first_agg_trade_id": 3487055276,
+      "last_agg_trade_id": 3488244922,
+      "parquet_path": "C:\\Users\\1\\Desktop\\Onetime\\P2-D-BTCUSDT-202610-v2\\isolated-data\\canonical\\aggtrades\\symbol=BTCUSDT\\date=2026-10-16\\part-00000.parquet",
+      "skipped_existing": true
+    },
+    {
+      "day": "2026-10-17",
+      "source": "binance_vision_monthly_archive",
+      "row_count": 461031,
+      "first_agg_trade_id": 3488244923,
+      "last_agg_trade_id": 3488705953,
+      "parquet_path": "C:\\Users\\1\\Desktop\\Onetime\\P2-D-BTCUSDT-202610-v2\\isolated-data\\canonical\\aggtrades\\symbol=BTCUSDT\\date=2026-10-17\\part-00000.parquet",
+      "skipped_existing": true
+    },
+    {
+      "day": "2026-10-18",
+      "source": "binance_vision_monthly_archive",
+      "row_count": 773766,
+      "first_agg_trade_id": 3488705954,
+      "last_agg_trade_id": 3489479719,
+      "parquet_path": "C:\\Users\\1\\Desktop\\Onetime\\P2-D-BTCUSDT-202610-v2\\isolated-data\\canonical\\aggtrades\\symbol=BTCUSDT\\date=2026-10-18\\part-00000.parquet",
+      "skipped_existing": true
+    },
+    {
+      "day": "2026-10-19",
+      "source": "binance_vision_monthly_archive",
+      "row_count": 1002851,
+      "first_agg_trade_id": 3489479720,
+      "last_agg_trade_id": 3490482570,
+      "parquet_path": "C:\\Users\\1\\Desktop\\Onetime\\P2-D-BTCUSDT-202610-v2\\isolated-data\\canonical\\aggtrades\\symbol=BTCUSDT\\date=2026-10-19\\part-00000.parquet",
+      "skipped_existing": true
+    },
+    {
+      "day": "2026-10-20",
+      "source": "binance_vision_monthly_archive",
+      "row_count": 1144857,
+      "first_agg_trade_id": 3490482571,
+      "last_agg_trade_id": 3491627427,
+      "parquet_path": "C:\\Users\\1\\Desktop\\Onetime\\P2-D-BTCUSDT-202610-v2\\isolated-data\\canonical\\aggtrades\\symbol=BTCUSDT\\date=2026-10-20\\part-00000.parquet",
+      "skipped_existing": true
+    },
+    {
+      "day": "2026-10-21",
+      "source": "binance_vision_monthly_archive",
+      "row_count": 1103865,
+      "first_agg_trade_id": 3491627428,
+      "last_agg_trade_id": 3492731292,
+      "parquet_path": "C:\\Users\\1\\Desktop\\Onetime\\P2-D-BTCUSDT-202610-v2\\isolated-data\\canonical\\aggtrades\\symbol=BTCUSDT\\date=2026-10-21\\part-00000.parquet",
+      "skipped_existing": true
+    },
+    {
+      "day": "2026-10-22",
+      "source": "binance_vision_monthly_archive",
+      "row_count": 1165580,
+      "first_agg_trade_id": 3492731293,
+      "last_agg_trade_id": 3493896872,
+      "parquet_path": "C:\\Users\\1\\Desktop\\Onetime\\P2-D-BTCUSDT-202610-v2\\isolated-data\\canonical\\aggtrades\\symbol=BTCUSDT\\date=2026-10-22\\part-00000.parquet",
+      "skipped_existing": true
+    },
+    {
+      "day": "2026-10-23",
+      "source": "binance_vision_monthly_archive",
+      "row_count": 933742,
+      "first_agg_trade_id": 3493896873,
+      "last_agg_trade_id": 3494830614,
+      "parquet_path": "C:\\Users\\1\\Desktop\\Onetime\\P2-D-BTCUSDT-202610-v2\\isolated-data\\canonical\\aggtrades\\symbol=BTCUSDT\\date=2026-10-23\\part-00000.parquet",
+      "skipped_existing": true
+    },
+    {
+      "day": "2026-10-24",
+      "source": "binance_vision_monthly_archive",
+      "row_count": 842302,
+      "first_agg_trade_id": 3494830615,
+      "last_agg_trade_id": 3495672916,
+      "parquet_path": "C:\\Users\\1\\Desktop\\Onetime\\P2-D-BTCUSDT-202610-v2\\isolated-data\\canonical\\aggtrades\\symbol=BTCUSDT\\date=2026-10-24\\part-00000.parquet",
+      "skipped_existing": true
+    },
+    {
+      "day": "2026-10-25",
+      "source": "binance_vision_monthly_archive",
+      "row_count": 551845,
+      "first_agg_trade_id": 3495672917,
+      "last_agg_trade_id": 3496224761,
+      "parquet_path": "C:\\Users\\1\\Desktop\\Onetime\\P2-D-BTCUSDT-202610-v2\\isolated-data\\canonical\\aggtrades\\symbol=BTCUSDT\\date=2026-10-25\\part-00000.parquet",
+      "skipped_existing": true
+    },
+    {
+      "day": "2026-10-26",
+      "source": "binance_vision_monthly_archive",
+      "row_count": 1223983,
+      "first_agg_trade_id": 3496224762,
+      "last_agg_trade_id": 3497448744,
+      "parquet_path": "C:\\Users\\1\\Desktop\\Onetime\\P2-D-BTCUSDT-202610-v2\\isolated-data\\canonical\\aggtrades\\symbol=BTCUSDT\\date=2026-10-26\\part-00000.parquet",
+      "skipped_existing": true
+    },
+    {
+      "day": "2026-10-27",
+      "source": "binance_vision_monthly_archive",
+      "row_count": 841722,
+      "first_agg_trade_id": 3497448745,
+      "last_agg_trade_id": 3498290466,
+      "parquet_path": "C:\\Users\\1\\Desktop\\Onetime\\P2-D-BTCUSDT-202610-v2\\isolated-data\\canonical\\aggtrades\\symbol=BTCUSDT\\date=2026-10-27\\part-00000.parquet",
+      "skipped_existing": true
+    },
+    {
+      "day": "2026-10-28",
+      "source": "binance_vision_monthly_archive",
+      "row_count": 961120,
+      "first_agg_trade_id": 3498290467,
+      "last_agg_trade_id": 3499251586,
+      "parquet_path": "C:\\Users\\1\\Desktop\\Onetime\\P2-D-BTCUSDT-202610-v2\\isolated-data\\canonical\\aggtrades\\symbol=BTCUSDT\\date=2026-10-28\\part-00000.parquet",
+      "skipped_existing": true
+    },
+    {
+      "day": "2026-10-29",
+      "source": "binance_vision_monthly_archive",
+      "row_count": 1804397,
+      "first_agg_trade_id": 3499251587,
+      "last_agg_trade_id": 3501055983,
+      "parquet_path": "C:\\Users\\1\\Desktop\\Onetime\\P2-D-BTCUSDT-202610-v2\\isolated-data\\canonical\\aggtrades\\symbol=BTCUSDT\\date=2026-10-29\\part-00000.parquet",
+      "skipped_existing": true
+    },
+    {
+      "day": "2026-10-30",
+      "source": "binance_vision_monthly_archive",
+      "row_count": 2113570,
+      "first_agg_trade_id": 3501055984,
+      "last_agg_trade_id": 3503169553,
+      "parquet_path": "C:\\Users\\1\\Desktop\\Onetime\\P2-D-BTCUSDT-202610-v2\\isolated-data\\canonical\\aggtrades\\symbol=BTCUSDT\\date=2026-10-30\\part-00000.parquet",
+      "skipped_existing": true
+    },
+    {
+      "day": "2026-10-31",
+      "source": "binance_vision_monthly_archive",
+      "row_count": 459575,
+      "first_agg_trade_id": 3503169554,
+      "last_agg_trade_id": 3503629128,
+      "parquet_path": "C:\\Users\\1\\Desktop\\Onetime\\P2-D-BTCUSDT-202610-v2\\isolated-data\\canonical\\aggtrades\\symbol=BTCUSDT\\date=2026-10-31\\part-00000.parquet",
+      "skipped_existing": true
+    }
+  ]
+}

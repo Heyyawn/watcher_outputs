@@ -1,0 +1,5 @@
+[watcher]
+symbol = "BTCUSDT"
+
+[storage]
+data_dir = "C:/Users/1/Desktop/Onetime/P2-D-BTCUSDT-202610-v2/isolated-data"
