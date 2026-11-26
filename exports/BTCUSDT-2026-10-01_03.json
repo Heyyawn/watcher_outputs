@@ -1,0 +1,158 @@
+{
+  "handoff_contract": "watcher.canonical_aggtrades",
+  "handoff_contract_version": 1,
+  "created_at_utc": "2026-11-26T12:01:01.421231+00:00",
+  "dataset": "binance_usdm_aggtrades",
+  "symbol": "BTCUSDT",
+  "date_range": {
+    "start_date": "2026-10-01",
+    "end_date": "2026-10-03",
+    "bounds": "inclusive_utc_calendar_dates"
+  },
+  "storage": {
+    "data_root": "C:\\Users\\1\\Desktop\\Onetime\\P2-D-BTCUSDT-202610-v2\\isolated-data",
+    "partition_layout": "canonical/aggtrades/symbol={symbol}/date={utc_date}/",
+    "payload_format": "parquet",
+    "payload_is_copied": false,
+    "source_access": "read_only"
+  },
+  "canonical_schema": {
+    "schema_version": 1,
+    "fields": [
+      {
+        "name": "agg_trade_id",
+        "type": "int64"
+      },
+      {
+        "name": "price",
+        "type": "float64"
+      },
+      {
+        "name": "quantity",
+        "type": "float64"
+      },
+      {
+        "name": "first_trade_id",
+        "type": "int64"
+      },
+      {
+        "name": "last_trade_id",
+        "type": "int64"
+      },
+      {
+        "name": "transact_time",
+        "type": "int64"
+      },
+      {
+        "name": "is_buyer_maker",
+        "type": "bool"
+      },
+      {
+        "name": "causal_ts",
+        "type": "int64"
+      }
+    ]
+  },
+  "event_semantics": {
+    "event_time_field": "transact_time",
+    "event_time_unit": "unix_epoch_milliseconds",
+    "event_time_timezone": "UTC",
+    "ordering_coordinate_field": "causal_ts",
+    "ordering_coordinate_semantics": "non_decreasing_causal_order_coordinate; not economic event time",
+    "record_order": "strictly_increasing_agg_trade_id"
+  },
+  "verification": {
+    "report_version": 1,
+    "days_checked": 3,
+    "row_count": 3302616,
+    "coverage": {
+      "requested_days": 3,
+      "verified_complete_days": 3,
+      "manifest_v2_days": 3,
+      "legacy_daily_archive_days": 0,
+      "complete": true
+    },
+    "checks": {
+      "manifest_parquet_integrity": "PASS",
+      "manifest_row_metrics": "PASS",
+      "source_provenance_metadata": "PASS",
+      "complete_utc_day_coverage": "PASS",
+      "utc_partition_placement": "PASS",
+      "aggregate_id_ordering": "PASS",
+      "aggregate_id_continuity": "PASS",
+      "underlying_trade_id_ordering": "PASS",
+      "underlying_trade_id_gap_diagnostic": "WARNING",
+      "causal_timestamp_validity": "PASS",
+      "causal_timestamp_monotonicity": "PASS"
+    },
+    "source_archive_hashes_rechecked": false
+  },
+  "quality": {
+    "quality_status": "WARNING",
+    "strict_build_blocked": false,
+    "aggregate_id_gap_events": 0,
+    "aggregate_id_missing_count": 0,
+    "underlying_trade_id_gap_events": 30936,
+    "underlying_trade_id_missing_count": 31856,
+    "warning_policy": "Underlying Trade ID gaps remain visible as WARNING; they are not relabelled CLEAN and do not independently block this export."
+  },
+  "partitions": [
+    {
+      "utc_date": "2026-10-01",
+      "parquet_path": "canonical/aggtrades/symbol=BTCUSDT/date=2026-10-01/part-00000.parquet",
+      "manifest_path": "canonical/aggtrades/symbol=BTCUSDT/date=2026-10-01/manifest.json",
+      "manifest_version": 2,
+      "canonical_schema_version": 1,
+      "row_count": 1235396,
+      "first_agg_trade_id": 3471091150,
+      "last_agg_trade_id": 3472326545,
+      "max_causal_ts": 1790899199800,
+      "coverage_start_ms": 1790812800000,
+      "coverage_end_ms": 1790899199999,
+      "is_complete": true,
+      "source": "binance_vision_monthly_archive",
+      "source_url": "https://data.binance.vision/data/futures/um/monthly/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2026-10.zip",
+      "source_sha256": "449eca6026d06ca8d56bd6348bf79f7beab8bd53ba55e8582661408c53f5a6ca",
+      "parquet_sha256": "605f4e1489c40b6e96c46f2e7a46632c35d8b14c2d53ab0c39c1a67af4822710",
+      "manifest_sha256": "63673726fd66a826089e9b044950674a3ef9ae2f5094e77cb5eec62960b33375"
+    },
+    {
+      "utc_date": "2026-10-02",
+      "parquet_path": "canonical/aggtrades/symbol=BTCUSDT/date=2026-10-02/part-00000.parquet",
+      "manifest_path": "canonical/aggtrades/symbol=BTCUSDT/date=2026-10-02/manifest.json",
+      "manifest_version": 2,
+      "canonical_schema_version": 1,
+      "row_count": 1746319,
+      "first_agg_trade_id": 3472326546,
+      "last_agg_trade_id": 3474072864,
+      "max_causal_ts": 1790985599575,
+      "coverage_start_ms": 1790899200000,
+      "coverage_end_ms": 1790985599999,
+      "is_complete": true,
+      "source": "binance_vision_monthly_archive",
+      "source_url": "https://data.binance.vision/data/futures/um/monthly/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2026-10.zip",
+      "source_sha256": "449eca6026d06ca8d56bd6348bf79f7beab8bd53ba55e8582661408c53f5a6ca",
+      "parquet_sha256": "e9d3e1e310a4c8933d205530c2f5fcff919f44bba8067c8a9b31163bb49d1280",
+      "manifest_sha256": "546e669e99dbd87dfd980cd5b43c161b20ce6caa56798c023af6fb32302f0450"
+    },
+    {
+      "utc_date": "2026-10-03",
+      "parquet_path": "canonical/aggtrades/symbol=BTCUSDT/date=2026-10-03/part-00000.parquet",
+      "manifest_path": "canonical/aggtrades/symbol=BTCUSDT/date=2026-10-03/manifest.json",
+      "manifest_version": 2,
+      "canonical_schema_version": 1,
+      "row_count": 320901,
+      "first_agg_trade_id": 3474072865,
+      "last_agg_trade_id": 3474393765,
+      "max_causal_ts": 1791071999884,
+      "coverage_start_ms": 1790985600000,
+      "coverage_end_ms": 1791071999999,
+      "is_complete": true,
+      "source": "binance_vision_monthly_archive",
+      "source_url": "https://data.binance.vision/data/futures/um/monthly/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2026-10.zip",
+      "source_sha256": "449eca6026d06ca8d56bd6348bf79f7beab8bd53ba55e8582661408c53f5a6ca",
+      "parquet_sha256": "9ab85d050b62b18d9b436e9d0e9a74c8d4ab11a450d45c93413213971dadaebb",
+      "manifest_sha256": "ea8c41dcd69e29027a08baa5c7502d9921c2958c1a80556e7713918e70a5d6f6"
+    }
+  ]
+}
